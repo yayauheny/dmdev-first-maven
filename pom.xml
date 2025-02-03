@@ -44,13 +44,6 @@
   </dependencyManagement>
 
   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-failsafe-plugin</artifactId>
-      </plugin>
-    </plugins>
-
     <pluginManagement>
       <plugins>
         <plugin>
@@ -68,7 +61,7 @@
           <artifactId>maven-install-plugin</artifactId>
           <version>${maven.install.plugin.version}</version>
         </plugin>
-<!--        Testing plugins-->
+        <!--        Testing plugins-->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
